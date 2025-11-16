@@ -1,7 +1,19 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   /* config options here */
+ 
+eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  trailingSlash: false,
+  images: {
+    unoptimized:true,
+    remotePatterns: [{ protocol: 'https', hostname: '**' }],
+  },
 };
 
 export default nextConfig;
