@@ -34,7 +34,8 @@
     "register": "Register",
     "signOut": "Sign Out",
     "profile": "Profile",
-    "admin": "Admin"
+    "admin": "Admin",
+     "sas": "shahen dashboad"
   },
   "auth": {
     "login": {
