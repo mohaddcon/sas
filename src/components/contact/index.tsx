@@ -15,8 +15,8 @@ const Contact = async () => {
           title={contact.contactUs}
         />
         <div className='mt-8'>
-          <a className='text-4xl underline text-accent' href='tel:+2012121212'>
-            +2012121212
+          <a className='text-4xl underline text-accent' href='tel:+967770196069'>
+            +967770196069
           </a>
         </div>
       </div>

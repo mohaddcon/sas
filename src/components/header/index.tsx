@@ -32,7 +32,7 @@ async function Header() {
             <LanguageSwitcher />
           </div>
 
-          <CartButton />
+         
         </div>
       </div>
     </header>
