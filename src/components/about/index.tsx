@@ -1,5 +1,5 @@
 import { Routes } from '@/constants/enums';
-import MainHeading from '../main-heading';
+import MainHeading from '@/./components/main-heading';
 import { getCurrentLocale } from '@/lib/getCurrentLocale';
 import getTrans from '@/lib/translation';
 
