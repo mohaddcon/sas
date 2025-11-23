@@ -7,11 +7,9 @@ import { Cairo, Roboto } from "next/font/google";
 import { Locale } from "@/i18n.config";
 import { Toaster } from "@/components/ui/toaster";
 import NextAuthSessionProvider from "@/providers/NextAuthSessionProvider";
-import Sidebar from "@/components/sas/SidebarClient";
+import Sidebar from "@/components/sas/Sidebar";
 
-export async function generateStaticParams() {
-	return [{ locale: Languages.ARABIC }, { locale: Languages.ENGLISH }];
-}
+
 
 const roboto = Roboto({
 	subsets: ["latin"],
@@ -46,7 +44,7 @@ export default async function sasLayout({
 			<body className={locale === Languages.ARABIC ? cairo.className : roboto.className}>
 				
 						<div className="flex">
-							<Sidebar />
+							<Sidebar/>
 							<main className="flex-1">{children}</main>
 
 							
