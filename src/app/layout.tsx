@@ -11,7 +11,9 @@ import useSWR from "swr";
 import { Toaster } from "@/components/ui/toaster";
 import NextAuthSessionProvider from "@/providers/NextAuthSessionProvider";
 
-
+export async function generateStaticParams() {
+  return [{ locale: Languages.ARABIC }, { locale: Languages.ENGLISH }];
+}
 
 const roboto = Roboto({
   subsets: ["latin"],
