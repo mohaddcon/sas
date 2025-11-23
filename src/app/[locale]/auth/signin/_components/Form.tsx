@@ -54,7 +54,7 @@ function Form({ translations }: { translations: Translations }) {
           title: translations.messages.loginSuccessful,
           className: "text-green-400",
         });
-        router.replace(`/${locale}/${Routes.SAS}`);
+        router.replace(`/${locale}/${Routes.ADMIN}`);
       }
     } catch (error) {
       console.log(error);

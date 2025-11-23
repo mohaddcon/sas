@@ -92,7 +92,7 @@ export const signup = async (prevState: unknown, formData: FormData) => {
     });
     revalidatePath(`/${locale}/${Routes.ADMIN}/${Pages.USERS}`);
     revalidatePath(
-      `/${locale}/${Routes.ADMIN}/${Pages.USERS}/${createdUser.id}/${Pages.ADDPRODUCT}`
+      `/${locale}/${Routes.ADMIN}/${Pages.USERS}/${createdUser.id}/${Pages.EDIT}`
     );
     return {
       status: 201,

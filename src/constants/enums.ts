@@ -32,7 +32,7 @@ export enum Pages {
   EDIT = "edit",
   account="account-statement",
  ADDCUSTOMER="add-customer",
- ADDPRODUCT="sadd-productas",
+ ADDPRODUCT="add-productas",
         TRUCK="sadd-truckas",
  MYHIPMENT="my-shipments",
             PRINTBI="print-bill",
