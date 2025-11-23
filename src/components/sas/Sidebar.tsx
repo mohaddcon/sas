@@ -21,16 +21,16 @@ type MenuItem = {
 };
 
 const menu: MenuItem[] = [
-  { key: "add-product", label: "إضافة منتج", href: "/sas/add-product", Icon: PlusCircle },
-  { key: "add-customer", label: "إضافة عميل", href: "/sas/add-customer", Icon: UserPlus },
-  { key: "add-truck", label: "إضافة شاحنة", href: "/sas/add-truck", Icon: Truck },
-  { key: "new-shipment", label: "شحنة جديدة", href: "/sas/new-shipment", Icon: Package },
-  { key: "my-shipments", label: "شحناتي", href: "/sas/my-shipments", Icon: List },
-  { key: "account-statement", label: "كشف حساب", href: "/sas/account-statement", Icon: FileText },
-  { key: "profile", label: "الملف الشخصي", href: "/sas/profile", Icon: User },
-  { key: "rate-driver", label: "تقييم الشاحن", href: "/sas/rate-driver", Icon: Star },
-  { key: "print-bill", label: "طباعة البوليصة", href: "/sas/print-bill", Icon: Printer },
-  { key: "reports", label: "تقارير", href: "/sas/reports", Icon: BarChart2 },
+  { key: "add-product", label: "إضافة منتج", href: "/locale/sas/add-product", Icon: PlusCircle },
+  { key: "add-customer", label: "إضافة عميل", href: "/locale/sas/add-customer", Icon: UserPlus },
+  { key: "add-truck", label: "إضافة شاحنة", href: "/locale/sas/add-truck", Icon: Truck },
+  { key: "new-shipment", label: "شحنة جديدة", href: "/locale/sas/new-shipment", Icon: Package },
+  { key: "my-shipments", label: "شحناتي", href: "/locale/sas/my-shipments", Icon: List },
+  { key: "account-statement", label: "كشف حساب", href: "/locale/sas/account-statement", Icon: FileText },
+  { key: "profile", label: "الملف الشخصي", href: "/locale/sas/profile", Icon: User },
+  { key: "rate-driver", label: "تقييم الشاحن", href: "/locale/sas/rate-driver", Icon: Star },
+  { key: "print-bill", label: "طباعة البوليصة", href: "/locale/sas/print-bill", Icon: Printer },
+  { key: "reports", label: "تقارير", href: "/locale/sas/reports", Icon: BarChart2 },
 ];
 
 type Props = {
