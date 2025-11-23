@@ -7,7 +7,7 @@ import { Cairo, Roboto } from "next/font/google";
 import { Locale } from "@/i18n.config";
 import { Toaster } from "@/components/ui/toaster";
 import NextAuthSessionProvider from "@/providers/NextAuthSessionProvider";
-import Sidebar from "@/components/sas/Sidebar";
+import Sidebar from "@/components/sas/SidebarClient";
 
 export async function generateStaticParams() {
 	return [{ locale: Languages.ARABIC }, { locale: Languages.ENGLISH }];
